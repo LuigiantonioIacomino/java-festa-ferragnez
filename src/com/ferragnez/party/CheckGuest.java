@@ -24,7 +24,7 @@ public class CheckGuest {
                 break;
             }
             else{
-                if(i==9) {
+                if(i==namesOfGuests.length-1) {
                     System.out.println("Non puoi entrare");
                 }
             }
